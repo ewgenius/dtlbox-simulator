@@ -16,11 +16,16 @@ export default class Pixi extends Component<any, any> {
 
   componentDidMount() {
     this.container.appendChild(this.renderer.view)
-    this.renderScene()
+    this.gameLoop()
   }
 
-  renderScene() {
+  private renderScene() {
     this.renderer.render(this.stage)
+  }
+
+  private gameLoop() {
+    requestAnimationFrame(this.gameLoop.bind(this))
+    this.renderScene()
   }
 
   render() {
