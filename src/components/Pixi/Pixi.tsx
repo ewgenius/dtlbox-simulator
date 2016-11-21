@@ -4,10 +4,10 @@ import * as PIXI from 'pixi.js'
 import GameState from '../../engine/GameState'
 
 export default class Pixi extends Component<any, any> {
-  constructor(
-    private renderer = PIXI.autoDetectRenderer(800, 600),
-    private gameState = new GameState()
-  ) {
+  private renderer = PIXI.autoDetectRenderer(800, 600)
+  private gameState = new GameState()
+
+  constructor() {
     super()
   }
 
