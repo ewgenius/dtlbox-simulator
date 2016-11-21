@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
+    "@types/pixi.js": "^3.0.31",
     "@types/react": "^0.14.49",
     "@types/react-dom": "^0.14.18",
     "autoprefixer": "6.5.1",
@@ -53,6 +54,7 @@
     "whatwg-fetch": "1.0.0"
   },
   "dependencies": {
+    "pixi.js": "^4.2.2",
     "react": "^15.4.0",
     "react-dom": "^15.4.0"
   },

@@ -2,6 +2,10 @@
 # yarn lockfile v1
 
 
+"@types/pixi.js@^3.0.31":
+  version "3.0.31"
+  resolved "https://registry.yarnpkg.com/@types/pixi.js/-/pixi.js-3.0.31.tgz#f870a0af5cbd5ab40420b68dd87f49af2de50a04"
+
 "@types/react-dom@^0.14.18":
   version "0.14.18"
   resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-0.14.18.tgz#af4fb4092f433667f5f094e762b32c294e0010dc"
@@ -973,6 +977,10 @@ binary-extensions@^1.0.0:
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/binary-extensions/-/binary-extensions-1.7.0.tgz#6c1610db163abfb34edfe42fa423343a1e01185d"
 
+bit-twiddle@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/bit-twiddle/-/bit-twiddle-1.0.2.tgz#0c6c1fabe2b23d17173d9a61b7b7093eb9e1769e"
+
 block-stream@*:
   version "0.0.9"
   resolved "https://registry.yarnpkg.com/block-stream/-/block-stream-0.0.9.tgz#13ebfe778a03205cfe03751481ebb4b3300c126a"
@@ -1650,6 +1658,10 @@ duplexer@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/duplexer/-/duplexer-0.1.1.tgz#ace6ff808c1ce66b57d1ebf97977acb02334cfc1"
 
+earcut@^2.0.7:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/earcut/-/earcut-2.1.1.tgz#157634e5f3ebb42224e475016e86a5b6ce556b45"
+
 ecc-jsbn@~0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/ecc-jsbn/-/ecc-jsbn-0.1.1.tgz#0fc73a9ed5f0d53c38193398523ef7e543777505"
@@ -1931,6 +1943,10 @@ event-emitter@~0.3.4:
 eventemitter3@1.x.x:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-1.2.0.tgz#1c86991d816ad1e504750e73874224ecf3bec508"
+
+eventemitter3@^2.0.0:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-2.0.2.tgz#20ce4891909ce9f35b088c94fab40e2c96f473ac"
 
 events@^1.0.0:
   version "1.1.1"
@@ -2720,6 +2736,10 @@ isarray@1.0.0, isarray@^1.0.0, isarray@~1.0.0:
 isexe@^1.1.1:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/isexe/-/isexe-1.1.2.tgz#36f3e22e60750920f5e7241a476a8c6a42275ad0"
+
+ismobilejs@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/ismobilejs/-/ismobilejs-0.4.0.tgz#7b986252118e552137f36e42c21794af6c91558f"
 
 isobject@^2.0.0:
   version "2.1.0"
@@ -3735,6 +3755,10 @@ parse-json@^2.2.0:
   dependencies:
     error-ex "^1.2.0"
 
+parse-uri@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/parse-uri/-/parse-uri-1.0.0.tgz#2872dcc22f1a797acde1583d8a0ac29552ddac20"
+
 parse5@^1.5.1:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/parse5/-/parse5-1.5.1.tgz#9b7f3b0de32be78dc2401b17573ccaf0f6f59d94"
@@ -3798,6 +3822,22 @@ pinkie-promise@^2.0.0:
 pinkie@^2.0.0:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/pinkie/-/pinkie-2.0.4.tgz#72556b80cfa0d48a974e80e77248e80ed4f7f870"
+
+pixi-gl-core@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/pixi-gl-core/-/pixi-gl-core-1.0.3.tgz#3bd4fb3538a2ee601a048d8dc01f6df55e0b3550"
+
+pixi.js@^4.2.2:
+  version "4.2.2"
+  resolved "https://registry.yarnpkg.com/pixi.js/-/pixi.js-4.2.2.tgz#f0136c50882c8f16d1fa3ed426ec5fa219bede9f"
+  dependencies:
+    bit-twiddle "^1.0.2"
+    earcut "^2.0.7"
+    eventemitter3 "^2.0.0"
+    ismobilejs "^0.4.0"
+    object-assign "^4.0.1"
+    pixi-gl-core "^1.0.3"
+    resource-loader "^1.8.0"
 
 pkg-dir@^1.0.0:
   version "1.0.0"
@@ -4451,6 +4491,13 @@ resolve-from@^1.0.0:
 resolve@1.1.7, resolve@1.1.x, resolve@^1.1.6:
   version "1.1.7"
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.1.7.tgz#203114d82ad2c5ed9e8e0411b3932875e889e97b"
+
+resource-loader@^1.8.0:
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/resource-loader/-/resource-loader-1.8.0.tgz#7ac61d6947ee99678d60b970ed1467af995fb3dd"
+  dependencies:
+    eventemitter3 "^2.0.0"
+    parse-uri "^1.0.0"
 
 restore-cursor@^1.0.1:
   version "1.0.1"

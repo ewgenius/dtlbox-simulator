@@ -2,6 +2,10 @@ import * as React from 'react'
 import { Component } from 'react'
 import './App.css';
 
+import * as PIXI from 'pixi.js'
+
+console.log(PIXI)
+
 export default class App extends Component<any, any> {
   render() {
     return <div className="App">
