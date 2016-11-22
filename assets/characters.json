@@ -1,0 +1,28 @@
+{
+  "frames": {
+    "characters.json": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 26
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 26
+      },
+      "sourceSize": {
+         "w": 15,
+        "h": 26
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  }
+}
