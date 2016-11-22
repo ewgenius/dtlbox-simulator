@@ -1,4 +1,4 @@
-import { Characteristic } from '../Characteristic'
+import { Characteristic } from '../types/Characteristic'
 
 export default class Player {
   private _productivity: Characteristic = 10
